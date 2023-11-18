@@ -1,0 +1,59 @@
+body {
+  background-color: #F0EEF9;
+}
+
+.logo {
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+  margin: 0.5% 0% 0.5% 0.5%;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+      max-width: 55px;
+      max-height: 55px;
+  }
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+footer ul.justify {
+  text-align: center;
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+}
+footer ul.justify li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.card-sub{
+  background-color: #F0EEF9;
+  border-radius: 10px;
+  padding: 30px !important;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  footer ul.justify li{
+    width: 70px;
+  }
+}
+

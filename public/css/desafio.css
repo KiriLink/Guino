@@ -1,0 +1,63 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .spacer{
+        margin-top: 10% !important;
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    .card .card-content{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .scrollable{
+        width: 90% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .card .card-content{
+        padding: 10px !important;
+        margin: 0px !important;
+    }
+  }
+
+main{
+    margin-top: 1.5rem;
+}
+
+.scrollable {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.card .card-content{
+    padding: 60px;
+    margin: 10px;
+}
+
+.divider{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.title{
+    font-weight: bolder;
+}
+
+.spacer{
+    margin-top: 5%;
+}
